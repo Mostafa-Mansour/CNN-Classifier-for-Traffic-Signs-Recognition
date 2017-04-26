@@ -1,0 +1,2 @@
+model_checkpoint_path: "modelnet"
+all_model_checkpoint_paths: "modelnet"
