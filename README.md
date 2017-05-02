@@ -5,6 +5,12 @@
 This lab requires:
 
 * [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit)
+* or you can install the following modules individually:
+** tensorflow
+** cv2
+** numpy
+** pandas
+** scikit
 
 The lab environment can be created with CarND Term1 Starter Kit. Click [here](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) for the details.
 
@@ -18,4 +24,4 @@ cd CarND-Traffic-Sign-Classifier-Project
 jupyter notebook Traffic_Sign_Classifier.ipynb
 ```
 
-### For implementation details, you can check the [write_up]("./write_up.md") file.
+### For implementation details, you can check the [write_up](write_up.md) file.
