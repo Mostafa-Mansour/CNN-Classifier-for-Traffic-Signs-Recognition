@@ -77,7 +77,7 @@ By checking index number 25 in the data base, we will find that it has a label o
 ---
 ### 4. Train the model using the train data set and validate it using the validation data set.
 * The model is trained using the following hyperparameters:
-** learning rate=0.001 - EPOCHS=20 - BATCH_SIZE=128
+	*learning rate=0.001 - EPOCHS=20 - BATCH_SIZE=128
 * For this model, Cross Entropy loss function was chosen to be reduced using Adam optimizer.
 * The validation accuracy is about 97%.
 *  This accuracy was not obtained from the first time. It was about 94%. Using one more convolutional layer and making some adjustments on the images such as equalizing histograms, converting to gray scale and "whitening" - normalizing - each batch using its mean and standard deviation and also using dropout regularization technique with peak=0.75, increased the validation accuracy to 97%.
